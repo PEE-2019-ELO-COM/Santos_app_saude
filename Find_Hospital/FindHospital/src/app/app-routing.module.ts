@@ -12,9 +12,21 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
   },
   {
-    path: 'list',
-    loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
-  }
+    path: 'profile',
+    loadChildren: () => import('./profile/profile.module').then(m => m.ProfilePageModule)
+  },
+  {
+    path: 'his-familiar',
+    loadChildren: () => import('./his-familiar/his-familiar.module').then( m => m.HisFamiliarPageModule)
+  },
+  {
+    path: 'hist',
+    loadChildren: () => import('./hist/hist.module').then( m => m.HistPageModule)
+  },
+  {
+    path: 'remedio',
+    loadChildren: () => import('./remedio/remedio.module').then( m => m.RemedioPageModule)
+  },
 ];
 
 @NgModule({
@@ -24,3 +36,7 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
+function newFunction(): string {
+  return 'home';
+}
+

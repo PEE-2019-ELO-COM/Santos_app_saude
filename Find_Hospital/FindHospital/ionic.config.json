@@ -1,5 +1,7 @@
 {
   "name": "FindHospital",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
