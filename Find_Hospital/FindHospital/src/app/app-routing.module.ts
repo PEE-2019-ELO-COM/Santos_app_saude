@@ -27,6 +27,14 @@ const routes: Routes = [
     path: 'remedio',
     loadChildren: () => import('./remedio/remedio.module').then( m => m.RemedioPageModule)
   },
+  {
+    path: 'edit-profile',
+    loadChildren: () => import('./edit-profile/edit-profile.module').then( m => m.EditProfilePageModule)
+  },
+  {
+    path: 'near-me',
+    loadChildren: () => import('./near-me/near-me.module').then( m => m.NearMePageModule)
+  },
 ];
 
 @NgModule({

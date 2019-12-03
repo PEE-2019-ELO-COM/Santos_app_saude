@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Find Hospital
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-avatar>
+    <img src = "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+  </ion-avatar>
+
+  <ion-item>
+    <ion-input type="text" t maxLength="100" placeholder="Nome" [(ngModel)]="nome"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="text" t maxLength="100" placeholder="Telefone" [(ngModel)]="telefone"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="text" t maxLength="100" placeholder="Endereço" [(ngModel)]="endereco"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-input type="text" t maxLength="100" placeholder="Telefone de Emergência" [(ngModel)]="tel_emerg"></ion-input>
+  </ion-item>
+
+  <ion-button (click)="refresh()" expand = "full">
+    Salvar
+  </ion-button>
+
+</ion-content>

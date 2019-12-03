@@ -14,19 +14,24 @@
         <img src = "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
       </ion-avatar>
 
-      <ion-item> 
-          <ion-input placeholder = "Nome"  [(ngModel)]="inputValue"></ion-input>
-      </ion-item> 
+      <ion-list>
+        <ion-item>
+          <ion-label>nome</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>telefone</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>endereco</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>tel_emerg</ion-label>
+        </ion-item>  
+      </ion-list>
+      
+  <ion-button href="edit-profile" expand = "full">
+    <ion-label>Editar Perfil</ion-label>
+  </ion-button>
 
-  <ion-item>
-      <ion-input placeholder = "Telefone"></ion-input>
-  </ion-item>
-
-  <ion-item>
-      <ion-input placeholder = "Endereço"></ion-input>
-  </ion-item>
-
-  <ion-item>
-      <ion-input placeholder = "Contato de Emergência"></ion-input>
-  </ion-item>
 </ion-content>
+

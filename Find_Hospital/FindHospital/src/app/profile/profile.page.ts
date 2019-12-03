@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-profile',
@@ -7,8 +6,10 @@ import { NavController } from '@ionic/angular';
   styleUrls: ['./profile.page.scss'],
 })
 export class ProfilePage implements OnInit {
-  inputValue: string = '';
-  constructor(public  navCtrl: NavController) { 
+
+  //  username: string = document.cookie.split('<name= ')[1].split(">")[0];
+
+  constructor() { 
     
   }
  
