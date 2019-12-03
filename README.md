@@ -11,6 +11,10 @@ Na pasta onde se encontram os arquivos do programa deve ser efetuado o comando i
 ## Tutorial
 Para o desenvolvimento do programa foi realizado o tutorial de [Ionic/Angular](https://ionicframework.com/docs/v3/intro/tutorial/).</br>
 
+# Fluxograma
+O porgrama deve se comportar conforme o fluxograma abaixo, com os acessoas a outras páginas podendo ser feitos pela barra lateral ou pelos botões da tela inicial</br>
+<img src = "https://github.com/PEE-2019-ELO-COM/Santos_app_saude/blob/master/Fluxograma.jpeg">
+
 # Diagrama de Classes
 O diagrama de classes encontra-se na imagem abaixo</br>
 <img src = "https://github.com/PEE-2019-ELO-COM/Santos_app_saude/blob/master/diagrama_classes.jpeg">
